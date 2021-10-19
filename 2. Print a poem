@@ -1,0 +1,10 @@
+/* Printing a poem in C */
+#include <stdio.h>
+int main(void)
+{
+    printf("Some feelings are shallow, some feelings are deep \nSome make us smile, some make us weep.\n\n\n");
+    printf("Some we love, some we don't. \nSome we'll savor, some we won't.\n\n\n");
+    printf("Some grounding, some uplifting, \nSome long-lasting, some constantly shifting\n\n\n");
+    printf("No matter what feelings I'm feeling today, \nI know tomorrow is only a day away.\n\n\n");
+    return 0;
+}
