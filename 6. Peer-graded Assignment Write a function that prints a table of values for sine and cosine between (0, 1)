@@ -1,0 +1,17 @@
+/* Program to print table of 
+sine and cosine between (0,1) */
+#include <stdio.h> 				    //include preprocessing files
+#include <math.h>
+int main(void)
+{
+    double interval, x, y; 		 //declaring variables
+    int i;
+    for (i = 0; i < 10; i++) 	 //for loop
+    {
+        interval = i / 10.0;
+        x = (sin(interval));
+        y = (cos(interval));
+        printf("sine(%f) = %f \t cosine(%f) = %f \n", interval, x, interval, y);
+    }
+    return 0;
+}
