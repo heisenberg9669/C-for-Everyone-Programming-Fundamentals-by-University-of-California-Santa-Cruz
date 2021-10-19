@@ -1,0 +1,12 @@
+/* Program to print a sine function */
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+    double x, sinvalue;                                   //defining variables
+    printf("Enter the value between (0,1) : ");           //getting input from the user
+    scanf("%lf", &x);
+    sinvalue = sin(x);                                    //calculating the sine value of the input
+    printf("\nThe Sine value of %lf = %f ", x, sinvalue); //displaying the sinevalue
+    return 0;
+}
